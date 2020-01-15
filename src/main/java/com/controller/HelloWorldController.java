@@ -10,6 +10,7 @@ public class HelloWorldController {
 
 	@GetMapping
 	public String hello() {
+		// local changes master
 		return "Hello World";
 	}
 }
