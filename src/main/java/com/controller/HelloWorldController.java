@@ -11,6 +11,6 @@ public class HelloWorldController {
 	@GetMapping
 	public String hello() {
 		
-		return "Hello World with Jenkins with Webhook";
+		return "Hello World with Jenkins with Webhook and Pipeline";
 	}
 }
