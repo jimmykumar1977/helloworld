@@ -11,7 +11,7 @@ public class HelloWorldController {
 	// hello
 	@GetMapping
 	public String hello() {
-		
-		return "Jenkins Pipeline";
+
+		return "jimmy jimmt branch";
 	}
 }
