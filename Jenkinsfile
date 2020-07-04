@@ -11,6 +11,15 @@ pipeline {
                 sh "mvn test"
             }
         }
+		
+		stage('Integration Test') {
+		    when {
+			    branch "release"
+			}
+		    steps {
+			    sh "mvn package"
+			}
+		}
         
     }
 }
