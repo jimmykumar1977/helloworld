@@ -11,8 +11,7 @@ public class HelloWorldController {
 	// hello
 	@GetMapping
 	public String hello() {
-		// new changes jimmy
-		// local changes master
-		return "Hello World";
+		
+		return "Hello World with Jenkins with Webhook and Pipeline v1.0";
 	}
 }
